@@ -1,6 +1,14 @@
 {
   "version": 2,
-  "builds": [{ "src": "./index.js", "use": "@vercel/node" }],
+  "builds": [
+    { "src": "./index.js", "use": "@vercel/node" },
+    { "src": "./controllers/*.js", "use": "@vercel/node" },
+    { "src": "./config/*.js", "use": "@vercel/node" },
+    { "src": "./models/*.js", "use": "@vercel/node" },
+    { "src": "./middlewares/*.js", "use": "@vercel/node" },
+    { "src": "./routes/*.js", "use": "@vercel/node" },
+    { "src": "./utils/*.js", "use": "@vercel/node" }
+  ],
   "routes": [
     {
       "src": "/api/v1/(.*)",
