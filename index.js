@@ -21,12 +21,7 @@ database.connect();
 //middlewares
 app.use(express.json());
 app.use(cookieParser());
-app.use(
-  cors({
-    origin: "https://study-adda-edtech.vercel.app",
-    credentials: true,
-  })
-);
+app.use(cors());
 
 app.use(
   fileUpload({
