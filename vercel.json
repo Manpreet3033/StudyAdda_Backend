@@ -1,7 +1,7 @@
 {
   "functions": {
     "index.js": {
-      "runtime": "nodejs16.x",
+      "runtime": "nodejs14.x",
       "memory": 1024
     }
   },
