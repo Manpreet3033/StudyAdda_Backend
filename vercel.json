@@ -1,10 +1,10 @@
 {
   "version": 2,
   "builds": [{ "src": "./index.js", "use": "@vercel/node" }],
-  "rewrites": [
+  "routes": [
     {
       "source": "/api/v1/(.*)",
-      "destination": "https://studyadda-backend.vercel.app/api/v1/$1"
+      "destination": "/api/v1/$1"
     }
   ]
 }
