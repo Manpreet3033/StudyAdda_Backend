@@ -7,7 +7,8 @@
     { "src": "./models/*.js", "use": "@vercel/node" },
     { "src": "./middlewares/*.js", "use": "@vercel/node" },
     { "src": "./routes/*.js", "use": "@vercel/node" },
-    { "src": "./utils/*.js", "use": "@vercel/node" }
+    { "src": "./utils/*.js", "use": "@vercel/node" },
+    { "src": "./mail/*.js", "use": "@vercel/node" }
   ],
   "routes": [
     {
