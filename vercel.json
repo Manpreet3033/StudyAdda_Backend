@@ -1,7 +1,7 @@
 {
   "functions": {
     "index.js": {
-      "runtime": "nodejs20.x",
+      "runtime": "nodejs22.2",
       "memory": 1024
     }
   },
